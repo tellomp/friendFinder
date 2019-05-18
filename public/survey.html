@@ -20,24 +20,24 @@
 
 </head>
 
-<body style= "font-family: 'Shadows Into Light', cursive; background-image: linear-gradient(to left bottom, #fbfbfb, #fbfbfb, #fcfcfc, #fcfcfc, #fcfcfc, #f7f1ff, #f7e5fe, #fbd7fa, #ffb5e0, #ff91ae, #ff7469, #ff6a00); color:black">
+<body style= "background: url(https://media.giphy.com/media/luvcXlAjCTZKw/giphy.gif) no-repeat top center; background-size:1400px 500px; background-color:#FBFBFC;">
 
-  <div class="container">
+  <div class="container" style= "font-family: 'Shadows Into Light', cursive; margin-top:410px;color: black; font-size:20px">
 
-    <h2>Survey Questions</h2>
+    <h2 style="color: white">Survey Questions</h2>
     <hr>
 
-    <h3><strong>About You</strong></h3>
-    <h4>Name (Required)</h4>
-    <input type="text" id="name" class="form-control" required>
+    <h3 style="color: #D63230"><strong>About You</strong></h3>
+    <h4 style="color: #D63230">Name (Required)</h4>
+    <input type="text" size="50" id="name" class="form1"  required>
 
-    <h4>Link to Photo Image (Required)</h4>
-    <input type="text" id="photo" class="form-control" required>
+    <h4 >Link to Photo Image (Required)</h4>
+    <input type="text" size="50" id="photo" class="form1" required>
 
     <hr>
 
-    <h3><strong>Question 1</strong></h3>
-    <h4>If people are rude to me I just shrug it off.</h4>
+    <h3 style="color:#39A9DB"><strong>Question 1</strong></h3>
+    <h4 style="color:#39A9DB">If people are rude to me I just shrug it off.</h4>
     <select class="chosen-select" id="q1">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -59,8 +59,8 @@
     </select>
 
 
-    <h3><strong>Question 3</strong></h3>
-    <h4>I consistently put full time and effort into everything I do.</h4>
+    <h3 style="color:#F9C80E"><strong>Question 3</strong></h3>
+    <h4 style="color:#F9C80E">I consistently put full time and effort into everything I do.</h4>
     <select class="chosen-select" id="q3">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -71,7 +71,7 @@
     </select>
 
 
-    <h3><strong>Question 4</strong></h3>
+    <h3 ><strong>Question 4</strong></h3>
     <h4>You rarely do something just out of sheer curiosity.</h4>
     <select class="chosen-select" id="q4">
       <option value=""></option>
@@ -83,8 +83,8 @@
     </select>
 
 
-    <h3><strong>Question 5</strong></h3>
-    <h4>I prefer achieving my goals than assisting others to achieve their goals.</h4>
+    <h3 style="color: #D63230"><strong>Question 5</strong></h3>
+    <h4 style="color: #D63230">I prefer achieving my goals than assisting others to achieve their goals.</h4>
     <select class="chosen-select" id="q5">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -95,8 +95,8 @@
     </select>
 
 
-    <h3><strong>Question 6</strong></h3>
-    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+    <h3 ><strong>Question 6</strong></h3>
+    <h4 >It is often difficult for you to relate to other people’s feelings.</h4>
     <select class="chosen-select" id="q6">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -107,8 +107,8 @@
     </select>
 
 
-    <h3><strong>Question 7</strong></h3>
-    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <h3 style="color:#39A9DB"><strong>Question 7</strong></h3>
+    <h4 style="color:#39A9DB">In a discussion, truth should be more important than people’s sensitivities.</h4>
     <select class="chosen-select" id="q7">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -118,8 +118,8 @@
       <option value="5">5 (Strongly Agree)</option>
     </select>
 
-    <h3><strong>Question 8</strong></h3>
-    <h4>I like to be in charge of other people.</h4>
+    <h3 style="color:#F9C80E"><strong>Question 8</strong></h3>
+    <h4 style="color:#F9C80E">I like to be in charge of other people.</h4>
     <select class="chosen-select" id="q8">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -129,8 +129,8 @@
       <option value="5">5 (Strongly Agree)</option>
     </select>
 
-    <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+    <h3 ><strong>Question 9</strong></h3>
+    <h4 >You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
     <select class="chosen-select" id="q9">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -140,8 +140,8 @@
       <option value="5">5 (Strongly Agree)</option>
     </select>
 
-    <h3><strong>Question 10</strong></h3>
-    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <h3 style="color: #D63230"><strong>Question 10</strong></h3>
+    <h4 style="color: #D63230">You feel more energetic after spending time with a group of people.</h4>
     <select class="chosen-select" id="q10">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -155,13 +155,13 @@
     <br>
 
     <!-- Submit Button -->
-    <button type="submit" class="btn btn-dark btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+    <button type="button" class="btn btn-danger" id="submit"><i class="fa fa-check-circle"></i>
      Submit</button>
 
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends"style="color: black">API Friends List</a> | <a href="https://github.com/tellomp/friendfinder"style="color: black">GitHub Repo</a></p>
+        <p><a href="/api/friends"style="color: #39A9DB">API Friends List</a> | <a href="https://github.com/tellomp/friendfinder"style="color: #F9C80E">GitHub Repo</a></p>
       </div>
     </footer>
 
@@ -198,7 +198,7 @@
   
       function validateForm() {
         var isValid = true;
-        $(".form-control").each(function() {
+        $(".form1").each(function() {
           if ($(this).val() === "") {
             isValid = false;
           }
