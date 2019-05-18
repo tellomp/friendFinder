@@ -48,6 +48,16 @@ You will use Express to handle routing
 
 7. Once the current user's most compatible friend has been found, the result is displayed as a modal pop-up.
    * The modal display both the name and picture of the closest match.
+   
+### Technologies Used
+
+JavaScript
+jQuery
+Bootstrap
+node.js
+Express.js
+HTML
+CSS
 
 ### Live App
 
