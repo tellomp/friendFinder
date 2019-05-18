@@ -49,6 +49,6 @@ You will use Express to handle routing
 7. Once the current user's most compatible friend has been found, the result is displayed as a modal pop-up.
    * The modal display both the name and picture of the closest match.
 
-## Live App
+### Live App
 
 1. Click here to find a friend! https://frozen-inlet-63298.herokuapp.com/
