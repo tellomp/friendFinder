@@ -51,13 +51,13 @@ You will use Express to handle routing
    
 ### Technologies Used
 
-JavaScript
-jQuery
-Bootstrap
-node.js
-Express.js
-HTML
-CSS
+* JavaScript
+* jQuery
+* Bootstrap
+* node.js
+* Express.js
+* HTML
+* CSS
 
 ### Live App
 
