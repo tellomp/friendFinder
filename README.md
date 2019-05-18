@@ -4,14 +4,15 @@
 
 In this activity, I've built a compatibility-based "FriendFinder" application to match you with your favorite Friends character. As users input their information, more friends are formed. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
-You will use Express to handle routing
+### Live App
 
+1. Click here to find a friend! https://frozen-inlet-63298.herokuapp.com/
 
 ### Requirements
 
 1. The survey has 10 questions of my choosing. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
-2. The `server.js` file requires the basic npm packages we've used in class: `express` and `path`.
+2. The `server.js` file requires `express` and `path`.
 
 3. The `htmlRoutes.js` file includes two routes:
 
@@ -59,6 +60,4 @@ You will use Express to handle routing
 * HTML
 * CSS
 
-### Live App
 
-1. Click here to find a friend! https://frozen-inlet-63298.herokuapp.com/
