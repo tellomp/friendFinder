@@ -4,6 +4,12 @@
 
 In this activity, I've built a compatibility-based "FriendFinder" application to match you with your favorite Friends character. As users input their information, more friends are formed. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
+
+![alt text][logo]
+
+[logo]: https://github.com/tellomp/friendFinder/blob/master/public/homepage.png "Home Page"
+
+
 ### Live App
 
 1. Click here to find a friend! https://frozen-inlet-63298.herokuapp.com/
@@ -49,6 +55,11 @@ In this activity, I've built a compatibility-based "FriendFinder" application to
 
 7. Once the current user's most compatible friend has been found, the result is displayed as a modal pop-up.
    * The modal display both the name and picture of the closest match.
+
+
+![alt text][match]
+
+[match]: https://github.com/tellomp/friendFinder/blob/master/public/friendResult.png "Friend Match"
    
 ### Technologies Used
 
